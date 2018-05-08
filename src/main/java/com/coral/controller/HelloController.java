@@ -19,6 +19,7 @@ public class HelloController {
     public ModelAndView helloWorld() {
         ModelAndView mv = new ModelAndView();
         mv.setViewName("hello");
+        System.out.println("Version 1");
         return mv;
     }
 
