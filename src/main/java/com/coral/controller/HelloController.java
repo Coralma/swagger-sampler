@@ -21,6 +21,7 @@ public class HelloController {
         mv.setViewName("hello");
         System.out.println("Version 1");
         System.out.println("Version 2");
+        System.out.println("Version 3");
         return mv;
     }
 
